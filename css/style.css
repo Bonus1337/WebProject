@@ -1,0 +1,106 @@
+html{
+    scroll-padding-top: 5rem;
+}
+.featurette-divider {
+    margin: 5rem 0;
+  }
+.bgimage {
+    width:100%;
+    height:850px;
+    background: url('https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.bgimage h1{
+    font-size: 4rem;
+    color: #FFF;
+    text-shadow:2px 2px #333;
+}
+.bgimage p{
+    font-size: 2rem;
+}
+.hero-content{
+    color: #FFF;
+}
+.fa-4x{
+    padding-bottom: 30px;
+}
+.why-us h2{
+    padding-bottom: 30px;
+}
+/* Why us */
+.why-us .btn{
+    box-shadow: 3px 5px #515751;
+    transition-property: transform;
+    transition: 0.5s;
+}
+.why-us .btn:hover{
+       transform: scale(1.1); 
+}
+/* About Us */
+.card-about{
+    border: 1px solid #333;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 3px 5px 3px 5px #7cbfd3;
+    transition-property: transform;
+    transition: 0.5s;
+}
+.card-about:hover{
+    transform: scale(1.1); 
+}
+.card-about .amount{
+    font-size: 4rem;
+    color: rgb(7, 78, 78);
+}
+/* Science club */
+.card-science-people{
+    border: 2px solid rgb(185, 124, 124);
+    border-radius: 25px;
+    box-shadow: 3px 5px 3px 5px rgb(185, 124, 124);
+    margin-top: 50px;
+}
+.science-club img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.science-club img:hover{
+    border-radius: 0%;
+
+}
+.science-club i{
+    padding-top: 40px;
+}
+
+
+/* conferences */
+.bgimage-cybersec {
+    width:100%;
+    background: rgb(107, 106, 106);
+}
+.hero-content-cybersec{
+    color: rgb(255, 255, 255);
+}
+
+.accordion-body-color{
+    color: #000;
+    background-color: #84BCDA;
+}
+
+
+.profit-cards img{ 
+    width: 100%;
+    height: 400px;
+}
+
+/* footer */
+.information p{
+padding: 0px;
+}
+.information a{
+    padding: 0px;
+    }
+
